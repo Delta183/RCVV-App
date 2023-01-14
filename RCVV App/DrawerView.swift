@@ -36,6 +36,7 @@ struct DrawerView<MainContent: View, DrawerContent: View>: View {
                     .frame(minWidth: drawerWidth, idealWidth: drawerWidth,
                            maxWidth: drawerWidth, maxHeight: .infinity)
                     .offset(x: isOpen ? 0 : -drawerWidth, y: 0)
+                
             }
         }
     }
