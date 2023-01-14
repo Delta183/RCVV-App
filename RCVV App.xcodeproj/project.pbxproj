@@ -14,6 +14,7 @@
 		98CCCAED2971C109005D224E /* RCVV_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98CCCAEC2971C109005D224E /* RCVV_AppTests.swift */; };
 		98CCCAF72971C109005D224E /* RCVV_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98CCCAF62971C109005D224E /* RCVV_AppUITests.swift */; };
 		98CCCAF92971C109005D224E /* RCVV_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98CCCAF82971C109005D224E /* RCVV_AppUITestsLaunchTests.swift */; };
+		98CCCB062971C405005D224E /* DrawerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98CCCB052971C405005D224E /* DrawerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		98CCCAF22971C109005D224E /* RCVV AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RCVV AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		98CCCAF62971C109005D224E /* RCVV_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RCVV_AppUITests.swift; sourceTree = "<group>"; };
 		98CCCAF82971C109005D224E /* RCVV_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RCVV_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		98CCCB052971C405005D224E /* DrawerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				98CCCADD2971C105005D224E /* ContentView.swift */,
 				98CCCADF2971C108005D224E /* Assets.xcassets */,
 				98CCCAE12971C108005D224E /* Preview Content */,
+				98CCCB052971C405005D224E /* DrawerView.swift */,
 			);
 			path = "RCVV App";
 			sourceTree = "<group>";
@@ -257,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98CCCB062971C405005D224E /* DrawerView.swift in Sources */,
 				98CCCADE2971C105005D224E /* ContentView.swift in Sources */,
 				98CCCADC2971C105005D224E /* RCVV_AppApp.swift in Sources */,
 			);

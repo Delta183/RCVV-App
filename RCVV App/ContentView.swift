@@ -7,13 +7,28 @@
 
 import SwiftUI
 
+import SwiftUI
+
 struct ContentView: View {
+
+    @State var isOpen = false
+
     var body: some View {
-        VStack {
-       
-            Text("Hello, world!")
+        DrawerView(isOpen: $isOpen) {
+            Color.red
+            Button("Show drawer") {
+                withAnimation {
+                    isOpen.toggle()
+                }
+            }
+        } drawer: {
+            Color.green
+            Button("Hide drawer") {
+                withAnimation {
+                    isOpen.toggle()
+                }
+            }
         }
-        .padding()
     }
 }
 
