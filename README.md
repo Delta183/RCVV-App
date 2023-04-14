@@ -1,5 +1,5 @@
 # RCVV-App
-iOS counterpart of the Rose Cottage Visiting Volunteers application and the front end of the system. The MERN Stack exists at a backend at blah
+iOS counterpart of the Rose Cottage Visiting Volunteers application and the front end of the system. The MERN Stack exists at a backend at https://github.com/Delta183/RCVV_Backend_Site
 
 ## Background
 
